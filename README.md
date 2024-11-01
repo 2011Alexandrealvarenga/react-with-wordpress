@@ -26,3 +26,6 @@ Set up React Application with using Webpack and Babel
 - `dev` Runs webpack dev server for development ( in watch mode )
 - `prod` Runs webpack in production mode
 
+
+parei aqui
+https://youtu.be/ScFy4AzLOw8?list=PLD8nQCAhR3tTzWA8K5XQQps4u5kMFJjIG&t=430
