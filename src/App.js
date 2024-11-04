@@ -1,14 +1,23 @@
-import React from 'react';
-import Home from './components/Home';
+import './App.css';
+import Posts from './components/pages/Posts';
 
-class App extends React.Component {
-	render() {
-		return (
-			<div>
-				<Home/>
-			</div>
-		);
-	}
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">        
+          <Posts/>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;

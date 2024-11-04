@@ -1,13 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar';
 
-class Home extends React.Component{
-  render(){
-    return(
-      <div>
-        <Navbar/>
-      </div>
-    )
-  }
+const Home = () =>{
+  return <h1>Ola proceis mocada </h1>
 }
-export default Home;
+export default Home; 
