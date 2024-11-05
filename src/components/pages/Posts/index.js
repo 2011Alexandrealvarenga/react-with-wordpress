@@ -4,7 +4,7 @@ import axios from 'axios';
 const Posts = () => {
   const [posts, setPosts] = useState([]);
   useEffect(()=>{
-    let url = `${process.env.REACT_APP_API_ROOT}/posts`;    
+    let url = 'http://localhost/WP/wp-headless/server/wp-json/wp/v2/posts';    
     axios.get(url).then((res)=>{
       setPosts(res.data);
     });
