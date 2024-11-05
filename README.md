@@ -12,3 +12,7 @@ node -v
 
 criar a pasta com o projeto
 npx create-react-app nome-projeto
+
+## tailwind instalacao
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p

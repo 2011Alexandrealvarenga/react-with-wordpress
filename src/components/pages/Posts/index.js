@@ -16,7 +16,12 @@ console.log('posts', posts);
     {
       posts && posts.map((post)=>{
         console.log(post.title.rendered)
-        return <p key={post.id}>{post.title.rendered}</p>
+        return (
+        <div key={post.id}>
+          <h2>{post.title.rendered}</h2>
+          <p> {post.excerpt.rendered}</p>
+        </div>
+        )
 
       })
     }
