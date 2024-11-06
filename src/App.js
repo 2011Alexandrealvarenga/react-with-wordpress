@@ -1,13 +1,11 @@
 import './App.css';
-import Posts from './components/pages/Posts';
-
+import Pages from './components/Pages';
 
 function App() {
   return (
     <>
-      <Posts/>
-    </>
-    
+      <Pages />
+    </>    
   );
 }
 

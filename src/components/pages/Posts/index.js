@@ -13,6 +13,7 @@ console.log('posts', posts);
 
   return(
     <>
+      <h3 className='text-2xl font-bold'>Posts</h3>
       <div className='w-4/5 py-10 m-auto flex justify-between align-middle flex-wrap gap-10'>
       
       {
