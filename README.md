@@ -32,3 +32,6 @@ npx tailwindcss init -p
 
 url para configuraçao do tailwind
 https://tailwindcss.com/docs/guides/create-react-app
+
+rotas
+npm i react-router-dom
