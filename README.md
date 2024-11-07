@@ -1,3 +1,5 @@
+## repositorio base para o projeto
+https://github.com/tanujpatra228/youtube/tree/headless-wordpress-react-js
 
 ## criar plugin para tratar os paragrafos e excerpts
 

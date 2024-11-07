@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Link } from "react-router-dom";
 
 const Posts = () => {
   const [posts, setPosts] = useState([]);
@@ -17,17 +18,19 @@ console.log('posts', posts);
       <div className='w-4/5 py-10 m-auto flex justify-between align-middle flex-wrap gap-10'>
       
       {
-        posts && posts.map((post)=>{
+        Object.keys(posts).length ? posts.map((post)=>{
           console.log(post.title.rendered)
           return (
           <div key={post.id} className='card p-3 w-[330px] shadow-lg rounded-lg'>
-            <img src="https://via.placeholder.com/500" />
-            <h2 className='text-lg font-bold'>{post.title.rendered}</h2>
-            <p> {post.excerpt.rendered}</p>
+            <Link to={`/posts/${post.id}`}>
+              <img src="https://via.placeholder.com/500" />
+              <h2 className='text-lg font-bold'>{post.title.rendered}</h2>
+              <p> {post.excerpt.rendered}</p>
+            </Link>
           </div>
           )
 
-        })
+        }) : ('Loading ...')
       }
       </div>
     </>
