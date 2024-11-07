@@ -38,4 +38,4 @@ rotas
 npm i react-router-dom
 
 ### parei aqui
-https://www.youtube.com/watch?v=21G3lnmZ8RE&list=PLa9NMvQUMD5eH9-Fney5J6Hvhz4qOS-1q&index=11
+https://youtu.be/Tm0uZA5EBIc?list=PLa9NMvQUMD5eH9-Fney5J6Hvhz4qOS-1q
